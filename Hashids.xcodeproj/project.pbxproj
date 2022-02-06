@@ -28,6 +28,8 @@
 		0E30A9A627AFC2E500BD9ACC /* hashids */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hashids; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E30A9A927AFC2E500BD9ACC /* entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = entry.swift; sourceTree = "<group>"; };
 		0E30A9B327AFC34800BD9ACC /* hashids.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hashids.swift; sourceTree = "<group>"; };
+		0E30A9B827AFE82B00BD9ACC /* devsettings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = devsettings.xcconfig; sourceTree = "<group>"; };
+		0E30A9B927AFE99200BD9ACC /* whoami.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = whoami.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,8 @@
 		0E30A99D27AFC2E500BD9ACC = {
 			isa = PBXGroup;
 			children = (
+				0E30A9B827AFE82B00BD9ACC /* devsettings.xcconfig */,
+				0E30A9B927AFE99200BD9ACC /* whoami.xcconfig */,
 				0E30A9A827AFC2E500BD9ACC /* Hashids */,
 				0E30A9A727AFC2E500BD9ACC /* Products */,
 			);
@@ -141,6 +145,7 @@
 /* Begin XCBuildConfiguration section */
 		0E30A9AB27AFC2E500BD9ACC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E30A9B827AFE82B00BD9ACC /* devsettings.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -202,6 +207,7 @@
 		};
 		0E30A9AC27AFC2E500BD9ACC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E30A9B827AFE82B00BD9ACC /* devsettings.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -257,10 +263,11 @@
 		0E30A9AE27AFC2E500BD9ACC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PF5C6SD54S;
 				ENABLE_HARDENED_RUNTIME = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(ORGANIZATION_IDENTIFIER).hashids";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -269,10 +276,11 @@
 		0E30A9AF27AFC2E500BD9ACC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PF5C6SD54S;
 				ENABLE_HARDENED_RUNTIME = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(ORGANIZATION_IDENTIFIER).hashids";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};

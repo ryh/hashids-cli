@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0E30A9A527AFC2E500BD9ACC"
-               BuildableName = "Hashids"
+               BuildableName = "hashids"
                BlueprintName = "hashids"
                ReferencedContainer = "container:Hashids.xcodeproj">
             </BuildableReference>
@@ -59,7 +59,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0E30A9A527AFC2E500BD9ACC"
-            BuildableName = "Hashids"
+            BuildableName = "hashids"
             BlueprintName = "hashids"
             ReferencedContainer = "container:Hashids.xcodeproj">
          </BuildableReference>
@@ -86,7 +86,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0E30A9A527AFC2E500BD9ACC"
-            BuildableName = "Hashids"
+            BuildableName = "hashids"
             BlueprintName = "hashids"
             ReferencedContainer = "container:Hashids.xcodeproj">
          </BuildableReference>
